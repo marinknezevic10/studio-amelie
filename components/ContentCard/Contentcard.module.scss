@@ -1,0 +1,25 @@
+.navbar {
+  height: 108px;
+  border-bottom: 1px solid black;
+}
+
+.container {
+  display: flex;
+  padding-top: 88px;
+  width: 160px;
+  padding-left: 140px;
+}
+
+.container h1 {
+  align-items: center;
+  padding-left: 40px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.container h3 {
+  align-items: center;
+  padding-left: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}

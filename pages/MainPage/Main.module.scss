@@ -1,0 +1,15 @@
+$whitebackground: #f6eef5;
+
+.navbar {
+  height: 108px;
+  border-bottom: 1px solid black;
+  h1 {
+    align-items: center;
+    text-align: center;
+    color: red;
+  }
+}
+
+.container {
+  background-color: $whitebackground;
+}
