@@ -14,10 +14,6 @@ $descfontfamily: "Lexend Deca";
   line-height: 79.2px;
 }
 
-.headlinecontainer {
-  padding-left: 140px;
-}
-
 .description {
   color: $desccolor;
   font-family: $descfontfamily;
@@ -29,7 +25,6 @@ $descfontfamily: "Lexend Deca";
 .descriptioncontainer {
   width: 420px;
   height: 58px;
-  left: 0px;
+
   top: 182px;
-  padding-left: 140px;
 }

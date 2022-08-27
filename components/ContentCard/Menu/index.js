@@ -23,16 +23,25 @@ export default function Menu() {
     <div className={styles.main}>
       <div className={styles.container}>
         <div className={styles.wrapper}>
-          <div
-            onClick={() => setActive(!active)}
-            className={styles.menuWrapper}
-          >
-            <div>
+          <div className={styles.menuWrapper}>
+            <div className={styles.menu}>
               <div
+                onClick={() => setActive(!active)}
                 className={active ? styles.activeHamburger : styles.hamburger}
               />
-              <h4>Menu</h4>
+              <div
+                onClick={() => setActive(!active)}
+                className={styles.menuAlign}
+              >
+                <h4>Menu</h4>
+              </div>
             </div>
+          </div>
+          <div>
+            <h1>Studio Amelie</h1>
+          </div>
+          <div className={styles.buttonContainer}>
+            <button className={styles.button}>EINSCHREIBEN</button>
           </div>
         </div>
       </div>
