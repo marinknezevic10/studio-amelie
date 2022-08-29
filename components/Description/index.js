@@ -1,4 +1,4 @@
-import styles from "./title.module.scss";
+import styles from "./style.module.scss";
 
 export default function Description({ title, subtitle }) {
   return (

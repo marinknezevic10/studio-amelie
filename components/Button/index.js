@@ -1,10 +1,10 @@
-import styles from "./button.module.scss";
+import styles from "./style.module.scss";
 
-export default function Button({ buttonTitle }) {
+export default function Button({ title }) {
   return (
     <div className={styles.ButtonContainer}>
       <button type="submit" className={styles.button}>
-        {buttonTitle}
+        {title}
       </button>
     </div>
   );

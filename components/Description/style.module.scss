@@ -1,0 +1,30 @@
+@import "/styles/variables.scss";
+
+.headlinecontainer {
+  width: 660px;
+  height: 158px;
+  padding-left: 50px;
+
+  h1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 52px;
+    color: $blackcolor;
+
+    line-height: 79.2px;
+  }
+}
+
+.descriptioncontainer {
+  width: 420px;
+  height: 58px;
+  padding-left: 50px;
+  top: 182px;
+
+  .description {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 160%;
+    color: $greycolor;
+  }
+}

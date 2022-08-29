@@ -1,0 +1,16 @@
+.imgContainer {
+  float: right;
+  background: #d9d9d9;
+  transform: matrix(0.89, 0.46, 0.46, 1.09, 0, 0);
+  transform: rotate(6.69deg);
+
+  .image {
+    border-radius: 50%;
+  }
+}
+
+.descContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,4 +1,4 @@
-import styles from "./TextContainer.module.scss";
+import styles from "./style.module.scss";
 
 const TextContainer = ({ title, subtitle }) => {
   return (
