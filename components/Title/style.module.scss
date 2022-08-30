@@ -1,0 +1,14 @@
+
+@import "./styles/variables.scss";
+
+.headline {
+    font-family: $shocka;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    color: $titlecolorblack;
+    width: 660px;
+    height: 158px;
+    line-height: 79.2px;
+    
+  }

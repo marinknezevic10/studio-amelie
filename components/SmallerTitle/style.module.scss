@@ -1,0 +1,11 @@
+@import "./styles/variables.scss";
+
+
+.paragraph { 
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 130%;
+    font-family: $shocka;
+    width:960px;
+    padding-left: 140px;
+}

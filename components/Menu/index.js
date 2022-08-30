@@ -1,23 +1,25 @@
-import styles from "./Menu.module.scss";
+import styles from "./style.module.scss";
 import { useState } from "react";
 import React from "react";
 import Link from "next/link";
+import Logo from "../../public/images/Logo.png";
+import Image from "next/image";
 
 export default function Menu() {
   const [active, setActive] = useState(false);
   const pages = [
-    { name: "Home", Link: "/MainPage" },
-    { name: "About Us", Link: "/AboutUs" },
-    { name: "Services", Link: "/Services" },
+    { name: "Home", Link: "/main-page" },
+    { name: "About Us", Link: "/about-us" },
+    { name: "Services", Link: "/services" },
     {
       name: "Nagemodelling",
-      Link: "/Nagemodelling",
+      Link: "/nagemodelling",
     },
-    { name: "Aquarell Lips", Link: "/AquarellLips" },
-    { name: "Powder Brows", Link: "/PowderBrows" },
-    { name: "Price", Link: "/Price" },
-    { name: "Gallery", Link: "/Gallery" },
-    { name: "Contacts", Link: "/Contacts" },
+    { name: "Aquarell Lips", Link: "/aquarell-lips" },
+    { name: "Powder Brows", Link: "/powder-brows" },
+    { name: "Price", Link: "/price" },
+    { name: "Gallery", Link: "/gallery" },
+    { name: "Contact", Link: "/contact" },
   ];
   return (
     <div className={styles.main}>
@@ -38,7 +40,7 @@ export default function Menu() {
             </div>
           </div>
           <div>
-            <h1>Studio Amelie</h1>
+            <Image src={Logo} alt="/" />
           </div>
           <div className={styles.buttonContainer}>
             <button className={styles.button}>EINSCHREIBEN</button>

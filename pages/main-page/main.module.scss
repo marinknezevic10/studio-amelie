@@ -1,0 +1,69 @@
+@import "./styles/variables.scss";
+
+.descContainer{
+  padding-left: 140px;
+
+ 
+}
+
+
+.imgContainer {
+  float: right;
+  background: #d9d9d9;
+  
+  
+}
+    .imgWrapper{
+      float:right;
+      
+      .image{
+      border-radius: 50%;
+      }
+    }
+    .social{
+      
+     a{
+    
+    background-color: red;
+     }
+    }
+  
+    
+
+  
+  
+
+
+
+
+.descContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 720px;
+}
+
+.titleContainer{
+  padding-left: 140px;
+}
+
+.flexContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-bottom: 80px;
+}
+
+.uber{
+  border: 1px solid #E0D4DE;
+  border-radius: 50px;
+  box-sizing: border-box;
+  height: 60px;
+  width: 170px;
+  text-transform: uppercase;
+
+ 
+}
+

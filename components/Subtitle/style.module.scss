@@ -1,0 +1,11 @@
+@import "./styles/variables.scss";
+
+
+.description {
+    color: $subtitlecolorwhite;
+    font-family: $lexend;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 160%;
+    width:360px;
+  }

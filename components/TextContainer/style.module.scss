@@ -1,0 +1,31 @@
+@import "./styles/variables.scss";
+
+
+.container {
+  
+  padding-top: 88px;
+  
+
+
+  .firstContainer h1 {
+    align-items: center;
+    color: $titlecolorblack;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+    h3 {
+      align-items: center;
+      color: $subtitlecolorwhite;
+      font-size: 16px;
+      font-weight: 300;
+      font-style: normal;
+      
+    
+  }
+}
+
+
+
+
