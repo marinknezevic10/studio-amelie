@@ -2,9 +2,10 @@ import Menu from "../Menu";
 
 const Layout = ({ children }) => {
   return (
-    <>
-      <Menu /> <div>{children}</div>
-    </>
+    <main>
+      <Menu />
+      <div className="page">{children}</div>
+    </main>
   );
 };
 

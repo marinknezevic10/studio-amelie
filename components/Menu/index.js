@@ -22,7 +22,7 @@ export default function Menu() {
     { name: "Contact", Link: "/contact" },
   ];
   return (
-    <div className={styles.main}>
+    <nav className={styles.main}>
       <div className={styles.container}>
         <div className={styles.wrapper}>
           <div className={styles.menuWrapper}>
@@ -58,6 +58,6 @@ export default function Menu() {
           ))}
         </ul>
       </div>
-    </div>
+    </nav>
   );
 }

@@ -1,69 +1,159 @@
 @import "./styles/variables.scss";
 
-.descContainer{
+.homeIntro{
+  max-width: 1440px;
   padding-left: 140px;
+  border-radius: 0px 0px 80px 80px;
+  -webkit-border-radius: 0px 0px 80px 80px;
+  -moz-border-radius: 0px 0px 80px 80px;
+  -ms-border-radius: 0px 0px 80px 80px;
+  -o-border-radius: 0px 0px 80px 80px;
+  
 
+
+  .flexContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:30px;
+
+    p{
+      max-width: 360px;
+    }
+  }
+
+}
+
+
+
+ 
+
+.imgWrap{
+  position: absolute;
+  text-align: center;
+ right:0px;
+
+  top:115px;
+ 
+
+  .socials{
+    position: absolute;
+    bottom: 50px;
+    right: 126px;
+    background-color: transparent;
+    
  
 }
 
-
-.imgContainer {
-  float: right;
-  background: #d9d9d9;
-  
-  
-}
-    .imgWrapper{
-      float:right;
-      
-      .image{
-      border-radius: 50%;
-      }
-    }
-    .social{
-      
-     a{
+  .img{
     
-    background-color: red;
-     }
+    border-radius: 50%;
+    
+}
+ 
+}
+
+.socials{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+}
+
+.homeIntroHero{
+  max-width: 800px;
+
+  .sectionDisplay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+   
+
+    div{
+      max-width: 160px;
+      
     }
   
+  }
+
+  .topPosition{
+    padding-top: 80px;
+  }
+}
+
+.title{
+
+  div{
+      max-width: 660px;
+    h1{
+
+      max-width:660px
     
+     
+    }
+    h4{
+      max-width:360px;
+    }
+  }
+}
 
+.secondContent{
+  div{
+    padding-top:160px;
+
+    h1{
+      max-width: 960px;
+    }
+  }
+}
+
+
+
+.homeAbout{
+  padding-top: 60px;
+  background-color: black;
+
+ 
+  
+}
+
+.homeAboutServicesCard{
+
+  
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+  background-color: blue;
+  max-width: 360px;
+  height: 618px;
   
   
 
+  h5, h2{
+    text-align: center;
+  }
 
-
-
-.descContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-right: 720px;
+  
 }
 
-.titleContainer{
-  padding-left: 140px;
-}
 
-.flexContainer{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 140px;
-  padding-right: 140px;
-  padding-bottom: 80px;
-}
-
-.uber{
+.homeAboutServicesBorder{
   border: 1px solid #E0D4DE;
-  border-radius: 50px;
-  box-sizing: border-box;
-  height: 60px;
-  width: 170px;
-  text-transform: uppercase;
-
- 
+  max-width: 296px;
+  margin:auto;
+  
 }
+  
+.homeAboutServicesCardImage{
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
 
