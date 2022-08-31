@@ -1,59 +1,43 @@
 @import "./styles/variables.scss";
 
-.homeIntro{
-  max-width: 1440px;
-  padding-left: 140px;
-  border-radius: 0px 0px 80px 80px;
-  -webkit-border-radius: 0px 0px 80px 80px;
-  -moz-border-radius: 0px 0px 80px 80px;
-  -ms-border-radius: 0px 0px 80px 80px;
-  -o-border-radius: 0px 0px 80px 80px;
-  
+.homeIntro {
+  background: $whitebackground;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
 
-
-  .flexContainer{
+  .flexContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top:30px;
-
-    p{
+    padding-top: 30px;
+    padding-bottom: 80px;
+    p {
       max-width: 360px;
     }
   }
-
 }
 
+.homeIntroBorder {
+  border-radius: 0px 0px 80px 80px;
+}
 
-
- 
-
-.imgWrap{
+.imgWrap {
   position: absolute;
   text-align: center;
- right:0px;
-
-  top:115px;
- 
-
-  .socials{
+  right: 0px;
+  top: 115px;
+  .socials {
     position: absolute;
     bottom: 50px;
     right: 126px;
     background-color: transparent;
-    
- 
-}
-
-  .img{
-    
+  }
+  .img {
     border-radius: 50%;
-    
-}
- 
+  }
 }
 
-.socials{
+.socials {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -61,99 +45,174 @@
   gap: 12px;
 }
 
-.homeIntroHero{
+.homeIntroHero {
   max-width: 800px;
 
-  .sectionDisplay{
+  .sectionDisplay {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 600px;
-   
-
-    div{
+    div {
       max-width: 160px;
-      
     }
-  
   }
-
-  .topPosition{
+  .topPosition {
     padding-top: 80px;
   }
 }
 
-.title{
-
-  div{
+.title {
+  div {
+    max-width: 660px;
+    h1 {
       max-width: 660px;
-    h1{
-
-      max-width:660px
-    
-     
     }
-    h4{
-      max-width:360px;
+    h4 {
+      max-width: 360px;
     }
   }
 }
 
-.secondContent{
-  div{
-    padding-top:160px;
+.secondContent {
+  div {
+    padding-top: 160px;
 
-    h1{
+    h1 {
       max-width: 960px;
     }
   }
 }
 
-
-
-.homeAbout{
+.homeAbout {
   padding-top: 60px;
-  background-color: black;
+  max-width: 1440px;
+  h1 {
+    color: $titlecolorwhite;
+  }
+  .homeAboutCta {
+    padding-top: 100px;
 
- 
-  
+    h2 {
+      color: #fdf8fc;
+    }
+  }
 }
 
-.homeAboutServicesCard{
+.homeAboutServices {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
 
-  
-  border-radius: 32px;
-  -webkit-border-radius: 32px;
-  -moz-border-radius: 32px;
-  -ms-border-radius: 32px;
-  -o-border-radius: 32px;
-  background-color: blue;
-  max-width: 360px;
-  height: 618px;
-  
-  
+  .homeAboutServicesCard {
+    background: $whitebackground;
+    border-radius: 32px;
+    max-width: 360px;
+    height: 618px;
+    width: 100%;
 
-  h5, h2{
-    text-align: center;
+    h2 {
+      text-align: left;
+    }
+  }
+  .homeAboutServicesTwoCards {
+    display: flex;
+    justify-content: space-between;
+
+    h5 {
+      color: #666666;
+    }
+
+    h2 {
+      color: #fdf8fc;
+    }
   }
 
-  
+  button {
+    color: $titlecolorwhite;
+    background: $blackbackground;
+  }
 }
 
+.cardButton {
+  text-align: left;
+  justify-content: left;
+  display: flex;
+}
 
-.homeAboutServicesBorder{
-  border: 1px solid #E0D4DE;
+.homeAboutServicesCards {
+  border-radius: 32px;
+  max-width: 720px;
+  height: 618px;
+  flex: 50%;
+  border: 1px solid #2b2b2b;
+
+  .homeAboutServicesBorderTwoCards {
+    border: 1px solid #e0d4de;
+    max-width: 296px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.homeAboutServicesBorder {
+  border: 1px solid #e0d4de;
   max-width: 296px;
-  margin:auto;
-  
+  margin: auto;
 }
-  
-.homeAboutServicesCardImage{
+
+.homeAboutServicesCardImage {
   position: absolute;
   justify-content: center;
   text-align: center;
 }
 
+.homeAboutCta {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 
+  .homeAboutButton {
+    border-radius: 200px;
+    width: 211px;
+    height: 211px;
+  }
+}
 
+.homeAboutUs {
+  border-radius: 80px;
+  background: black;
+}
 
+.homeAboutNails {
+  padding-top: 80px;
+
+  .homeAboutNailsImages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .row {
+    display: flex;
+    padding-top: 60px;
+
+    div {
+      border-radius: 32px;
+      border: 2px solid black;
+      height: 292px;
+    }
+  }
+  .homeAboutNailsComments {
+    padding-top: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.homeAboutNails {
+  background: $whitebackground;
+  border-radius: 80px;
+}

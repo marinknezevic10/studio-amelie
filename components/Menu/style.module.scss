@@ -1,72 +1,79 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+}
+
 .wrapper {
-padding-left: 140px;
-padding-right: 140px;
-padding-top: 33px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+  height: 100px;
 
-.wrapper h1 {
-  text-align: center;
-}
-.menuPosition {
-  margin-top: 46px;
-}
+  h1 {
+    text-align: center;
+  }
 
-.menuWrapper h4 {
-  margin: 0;
-}
+  .menuPosition {
+    margin-top: 46px;
+  }
 
-.hamburger {
-  width: 30px;
-  height: 3px;
-  background: black;
-  border-radius: 5px;
-  box-shadow: 0px 2px 5px rgb(255, 101, 47, 0.2);
-  transition: all 0.5s ease-in-out;
-}
+  .menuWrapper h4 {
+    margin: 0;
+  }
 
-.hamburger::before {
-  content: "";
+  .hamburger {
+    width: 30px;
+    height: 3px;
+    background: black;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgb(255, 101, 47, 0.2);
+    transition: all 0.5s ease-in-out;
 
-  position: absolute;
-  width: 30px;
-  height: 3px;
-  background: black;
-  border-radius: 5px;
-  transition: all 0.5s ease-in-out;
-  transform: translateY(-10px);
-}
+    &::before {
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 3px;
+      background: black;
+      border-radius: 5px;
+      transition: all 0.5s ease-in-out;
+      transform: translateY(-10px);
+    }
 
-.activeHamburger {
-  width: 30px;
-  height: 3px;
-  border-radius: 5px;
-  transform: translateX(50px);
-  background: transparent;
-  transition: all 0.5s ease-in-out;
-}
+    .activeHamburger {
+      width: 30px;
+      height: 3px;
+      border-radius: 5px;
+      transform: translateX(50px);
+      background: transparent;
+      transition: all 0.5s ease-in-out;
 
-.activeHamburger::before {
-  content: "";
-  position: absolute;
-  width: 30px;
-  height: 3px;
-  background: black;
-  border-radius: 5px;
-  transition: all 0.5s ease-in-out;
-  transform: rotate(45deg) translate(35px, -35px);
-}
-.activeHamburger::after {
-  content: "";
-  position: absolute;
-  width: 30px;
-  height: 3px;
-  background: black;
-  border-radius: 5px;
-  transition: all 0.5s ease-in-out;
-  transform: rotate(-45deg) translate(35px, 35px);
+      &::before {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 3px;
+        background: black;
+        border-radius: 5px;
+        transition: all 0.5s ease-in-out;
+        transform: rotate(45deg) translate(35px, -35px);
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 3px;
+        background: black;
+        border-radius: 5px;
+        transition: all 0.5s ease-in-out;
+        transform: rotate(-45deg) translate(35px, 35px);
+      }
+    }
+  }
 }
 
 .ul {
@@ -92,7 +99,6 @@ padding-top: 33px;
 }
 
 .menu {
-  
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -22,8 +22,8 @@ export default function Menu() {
     { name: "Contact", Link: "/contact" },
   ];
   return (
-    <nav className={styles.main}>
-      <div className={styles.container}>
+    <nav className={styles.nav}>
+      <div className="container">
         <div className={styles.wrapper}>
           <div className={styles.menuWrapper}>
             <div className={styles.menu}>
